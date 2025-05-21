@@ -9,9 +9,7 @@ The Three Horizons Platform utilizes a modern microservices architecture pattern
 
 ## Architecture Diagram
 
-![Microservices Architecture Pattern](/img/diagrams/microservices-architecture.svg)
-
-*You can also download the diagram in [SVG format](/img/diagrams/microservices-architecture.svg) for vector graphics.*
+![Microservices Architecture Pattern](/img/diagrams/microservices-architecture.png)
 
 ## Key Components
 

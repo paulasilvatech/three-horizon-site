@@ -1,85 +1,65 @@
 ---
 sidebar_position: 7
+title: Web Application Patterns
 ---
 
-# Web Applications
+# Web Application Patterns
 
-This section provides architecture diagrams for different types of web applications that can be built using the Three Horizons Platform.
+The Three Horizons Platform supports multiple web application deployment patterns, each optimized for different use cases and requirements.
+
+## Microservices Architecture
+
+The microservices pattern is ideal for complex, scalable applications that need independent scaling and deployment of components.
+
+![Web Application Microservices Pattern](/img/diagrams/web-application-microservices.png)
+
+### Key Features
+
+- Container-based microservices running on Azure Kubernetes Service
+- API Gateway for unified access and security
+- Independent scaling of individual services
+- Service mesh for inter-service communication
+- Event-driven communication between services
+
+## Serverless Architecture
+
+The serverless pattern is optimized for event-driven workloads with variable traffic patterns and minimal operational overhead.
+
+![Web Application Serverless Pattern](/img/diagrams/web-application-serverless.png)
+
+### Key Features
+
+- Azure Functions for back-end processing
+- Azure Static Web Apps for front-end hosting
+- Pay-per-execution pricing model
+- Auto-scaling without capacity planning
+- Event-driven architecture
+- Reduced operational complexity
 
 ## Standard Web Application
 
-The standard web application architecture provides a balanced approach suitable for most business applications:
+The standard web application pattern provides a balanced approach for typical web applications with more predictable traffic patterns.
 
-<div className="diagram-container">
-  <img src="/img/diagrams/web-application-standard.png" alt="Standard Web Application Architecture" style={{maxWidth: '100%', height: 'auto'}} />
-</div>
+![Web Application Standard Pattern](/img/diagrams/web-application-standard.png)
 
-### Key Components
+### Key Features
 
-- **Frontend** - React or Angular single-page application
-- **Backend API** - RESTful or GraphQL API
-- **Database** - Relational database for structured data
-- **Authentication** - Microsoft Entra ID integration
-- **Caching** - Redis for performance optimization
-- **CDN** - Azure CDN for static content delivery
+- App Service for web application hosting
+- Azure SQL Database for relational data
+- Azure Redis Cache for session and data caching
+- Azure CDN for content delivery
+- Integrated authentication and authorization
+- Simplified DevOps workflow
 
-### Use Cases
+## Pattern Selection Criteria
 
-This architecture is ideal for:
-- Line-of-business applications
-- Customer portals
-- Admin dashboards
-- Content management systems
+When selecting a web application pattern, consider the following factors:
 
-## Microservices Web Application
-
-The microservices architecture provides greater scalability and team autonomy for complex applications:
-
-<div className="diagram-container">
-  <img src="/img/diagrams/web-application-microservices.png" alt="Microservices Web Application Architecture" style={{maxWidth: '100%', height: 'auto'}} />
-</div>
-
-### Key Components
-
-- **API Gateway** - Unified entry point for all microservices
-- **Microservices** - Domain-focused services with independent lifecycles
-- **Service Mesh** - For service discovery and communication
-- **Event Bus** - For asynchronous communication between services
-- **Polyglot Persistence** - Different database types for different services
-- **Distributed Tracing** - End-to-end request tracking
-
-### Use Cases
-
-This architecture is ideal for:
-- Large-scale applications
-- Systems with complex domains
-- Applications requiring independent scaling of components
-- Multi-team development environments
-
-## Serverless Web Application
-
-The serverless architecture provides maximum scalability and minimal operational overhead:
-
-<div className="diagram-container">
-  <img src="/img/diagrams/web-application-serverless.png" alt="Serverless Web Application Architecture" style={{maxWidth: '100%', height: 'auto'}} />
-</div>
-
-### Key Components
-
-- **Static Frontend** - Hosted in Azure Storage with CDN
-- **API Management** - Gateway for serverless functions
-- **Azure Functions** - Serverless compute for backend logic
-- **Cosmos DB** - Globally distributed NoSQL database
-- **Event Grid** - Event routing between components
-- **Blob Storage** - Object storage for files and assets
-
-### Use Cases
-
-This architecture is ideal for:
-- Variable or unpredictable workloads
-- Minimizing operational overhead
-- Rapid development and deployment
-- Cost optimization for sporadic usage patterns
+- **Complexity**: Microservices for complex applications, Standard or Serverless for simpler ones
+- **Scale**: Microservices or Serverless for highly variable workloads
+- **Development Expertise**: Standard for traditional web expertise, Microservices for distributed systems expertise
+- **Cost Model**: Serverless for optimizing costs with unpredictable traffic
+- **Operational Overhead**: Serverless for minimal ops, Standard for moderate, Microservices for highest control with higher overhead
 
 ## Next Steps
 

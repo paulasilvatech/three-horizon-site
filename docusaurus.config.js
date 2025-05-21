@@ -7,15 +7,15 @@ const config = {
   favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
-  url: 'https://three-horizons.github.io',
+  url: 'https://three-horizon-platform.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/three-horizon-site/',
+  baseUrl: '/Three-Horizons-Playbook/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'three-horizons', // Usually your GitHub org/user name.
-  projectName: 'three-horizon-site', // Usually your repo name.
+  organizationName: 'three-horizon-platform', // Usually your GitHub org/user name.
+  projectName: 'Three-Horizons-Playbook', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -85,7 +85,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/three-horizons/platform',
+            href: 'https://github.com/three-horizon-platform/Three-Horizons-Playbook',
             label: 'GitHub',
             position: 'right',
           },

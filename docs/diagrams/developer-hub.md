@@ -9,7 +9,7 @@ The Three Horizons Platform includes a comprehensive Developer Hub that serves a
 
 ## Developer Hub Architecture Diagram
 
-![Developer Hub Architecture](/img/diagrams/developer-hub-architecture.svg)
+![Developer Hub Architecture](/img/dev-hub-portal-sample.png)
 
 ## Key Developer Hub Components
 

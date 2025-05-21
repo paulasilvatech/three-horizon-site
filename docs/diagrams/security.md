@@ -7,10 +7,6 @@ title: Security Architecture
 
 The Three Horizons Platform implements a comprehensive security architecture that addresses authentication, authorization, network security, and data protection.
 
-## Security Architecture Diagram
-
-![Security Architecture](/img/diagrams/security-architecture.svg)
-
 ## Key Security Components
 
 ### Identity and Access Management

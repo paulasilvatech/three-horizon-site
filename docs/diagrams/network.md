@@ -1,52 +1,64 @@
 ---
 sidebar_position: 2
+title: Network Architecture
 ---
 
-# Network Diagram
+# Network Architecture
 
-This diagram illustrates the network architecture of the Three Horizons Platform, showing the different security zones, connectivity patterns, and network controls.
-
-![Three Horizons Platform Network Architecture](/img/diagrams/network-diagram.svg)
-
-## Network Zones
-
-The Three Horizons Platform implements a multi-layered network architecture with distinct security zones:
-
-1. **Public Zone** - Internet-facing components with appropriate security controls
-2. **DMZ** - Semi-trusted zone for components that need both internal and external connectivity
-3. **Application Zone** - Secure zone for application workloads
-4. **Data Zone** - Highly restricted zone for data storage and processing
-5. **Management Zone** - Isolated zone for platform administration
+The Three Horizons Platform implements a secure and scalable network architecture that provides isolation, protection, and connectivity for all platform components.
 
 ## Key Network Components
 
-The network architecture includes several key components:
+### Virtual Networks
 
-- **Azure Front Door** - Global entry point with WAF protection
-- **Application Gateway** - L7 load balancing and traffic management
-- **Azure Firewall** - Network-level security and traffic filtering
-- **Network Security Groups (NSGs)** - Subnet-level access controls
-- **Private Endpoints** - Secure connectivity to Azure PaaS services
-- **Azure ExpressRoute** - Dedicated connectivity to on-premises networks
+- **Hub-and-Spoke Topology** for centralized connectivity and security
+- Network segmentation for workload isolation
+- Dedicated subnets for different service types
+- Network Security Groups (NSGs) for traffic control
+- Azure DDoS Protection for infrastructure protection
 
-## Network Security Controls
+### Connectivity
 
-Multiple layers of security controls protect the network:
+- **Azure ExpressRoute** for private connectivity to on-premises
+- VPN Gateways for secure remote access
+- Azure Firewall for network traffic filtering
+- Web Application Firewall (WAF) for HTTP/HTTPS protection
+- Private Endpoints for secure PaaS connectivity
 
-- **DDoS Protection** - Azure DDoS Protection Standard for all public endpoints
-- **Web Application Firewall (WAF)** - OWASP Top 10 protection
-- **Network Segmentation** - Strict isolation between zones
-- **Traffic Inspection** - Deep packet inspection for all cross-zone traffic
-- **Private DNS** - Internal name resolution with no public exposure
+### DNS and Service Discovery
 
-## Connectivity Patterns
+- Azure Private DNS for internal name resolution
+- DNS forwarding for hybrid connectivity
+- Custom DNS solutions for complex scenarios
+- Service discovery mechanisms for microservices
 
-The diagram shows several connectivity patterns:
+### Network Monitoring
 
-- **Ingress Traffic** - External user access to applications
-- **Egress Traffic** - Controlled outbound connectivity
-- **East-West Traffic** - Communication between services
-- **Hybrid Connectivity** - Integration with on-premises systems
+- Network Watcher for visibility and troubleshooting
+- Flow logs for traffic analysis
+- NSG analytics for security insights
+- Network Performance Monitor for connectivity health
+- Traffic Analytics for network insights
+
+## Security Controls
+
+The network architecture implements multiple layers of security:
+
+1. **Perimeter Security**: Azure Firewall, DDoS Protection, WAF
+2. **Network Segmentation**: NSGs, Application Security Groups
+3. **Secure Connectivity**: Private Link, Service Endpoints
+4. **Traffic Inspection**: TLS inspection, Intrusion Detection
+5. **Identity-Based Access**: Zero Trust Network Access principles
+
+## Network Patterns
+
+The platform supports various network patterns to address different use cases:
+
+- **Public-Facing Applications**: Secured through WAF and CDN
+- **Internal Applications**: Private access through Private Link
+- **Hybrid Connectivity**: ExpressRoute for on-premises integration
+- **Multi-Region**: Global VNet peering for cross-region communication
+- **DMZ Architecture**: For applications requiring special security controls
 
 ## Next Steps
 

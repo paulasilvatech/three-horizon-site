@@ -7,10 +7,6 @@ title: CI/CD Pipeline Architecture
 
 The Three Horizons Platform implements a robust CI/CD pipeline architecture to automate the software delivery process, ensuring reliable, consistent, and efficient deployment of applications.
 
-## CI/CD Pipeline Diagram
-
-![CI/CD Pipeline Architecture](/img/diagrams/cicd-pipeline.svg)
-
 ## Key CI/CD Components
 
 ### Source Control Management

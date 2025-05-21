@@ -14,7 +14,7 @@ npm install
 npm start
 ```
 
-The site will be available at http://localhost:3000/three-horizon-site/
+The site will be available at http://localhost:3000/Three-Horizons-Playbook/
 
 ## Build
 
@@ -47,10 +47,10 @@ For the deployment to work correctly, make sure that:
 
 The site is configured in the `docusaurus.config.js` file. The main settings include:
 
-- `url`: 'https://three-horizons.github.io'
-- `baseUrl`: '/three-horizon-site/'
-- `organizationName`: 'three-horizons'
-- `projectName`: 'three-horizon-site'
+- `url`: 'https://three-horizon-platform.github.io'
+- `baseUrl`: '/Three-Horizons-Playbook/'
+- `organizationName`: 'three-horizon-platform'
+- `projectName`: 'Three-Horizons-Playbook'
 
 To modify the sidebar structure, edit the `sidebars.js` file.
 

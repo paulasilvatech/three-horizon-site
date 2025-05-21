@@ -9,7 +9,7 @@ The Three Horizons Platform provides comprehensive integration capabilities to c
 
 ## Integration Architecture Diagram
 
-![Integration Architecture](/img/diagrams/integration-diagram.svg)
+![Integration Architecture](/img/diagrams/integration-diagram.png)
 
 ## Key Integration Components
 
