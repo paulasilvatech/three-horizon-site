@@ -1,0 +1,26 @@
+{
+  "id": "phase5-cicd",
+  "title": "Phase 5: CI/CD Pipeline Setup",
+  "description": "In this phase, we'll set up continuous integration and continuous deployment (CI/CD) pipelines to automate the build, test, and deployment processes for your applications.",
+  "source": "@site/docs/phase5-cicd.md",
+  "sourceDirName": ".",
+  "slug": "/phase5-cicd",
+  "permalink": "/three-horizon-site/docs/phase5-cicd",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Phase 4: GitHub Integration",
+    "permalink": "/three-horizon-site/docs/phase4-github"
+  },
+  "next": {
+    "title": "Phase 6: Monitoring & Observability",
+    "permalink": "/three-horizon-site/docs/phase6-monitoring"
+  }
+}

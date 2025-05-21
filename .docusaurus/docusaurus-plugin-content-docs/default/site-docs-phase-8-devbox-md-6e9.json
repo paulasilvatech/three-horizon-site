@@ -1,0 +1,26 @@
+{
+  "id": "phase8-devbox",
+  "title": "Phase 8: Microsoft DevBox Configuration",
+  "description": "In this phase, we'll set up Microsoft DevBox to provide cloud-based developer environments that are pre-configured with all the tools and access needed for the Three Horizons Platform.",
+  "source": "@site/docs/phase8-devbox.md",
+  "sourceDirName": ".",
+  "slug": "/phase8-devbox",
+  "permalink": "/three-horizon-site/docs/phase8-devbox",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Phase 7: Platform Validation",
+    "permalink": "/three-horizon-site/docs/phase7-validation"
+  },
+  "next": {
+    "title": "Architecture Overview",
+    "permalink": "/three-horizon-site/docs/architecture"
+  }
+}

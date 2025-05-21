@@ -1,0 +1,27 @@
+{
+  "id": "diagrams/integration",
+  "title": "Integration Architecture",
+  "description": "This page will contain integration architecture diagrams and explanations for the Three Horizons Platform.",
+  "source": "@site/docs/diagrams/integration.md",
+  "sourceDirName": "diagrams",
+  "slug": "/diagrams/integration",
+  "permalink": "/three-horizon-site/docs/diagrams/integration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Integration Architecture"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "CI/CD Pipeline Architecture",
+    "permalink": "/three-horizon-site/docs/diagrams/cicd"
+  },
+  "next": {
+    "title": "Web Applications",
+    "permalink": "/three-horizon-site/docs/diagrams/web-applications"
+  }
+}

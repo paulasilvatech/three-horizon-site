@@ -1,0 +1,26 @@
+{
+  "id": "phase3-devhub",
+  "title": "Phase 3: Developer Hub Deployment",
+  "description": "Now let's deploy the Red Hat Developer Hub (RHDH) version 1.5, which is the central component for the Three Horizons Platform.",
+  "source": "@site/docs/phase3-devhub.md",
+  "sourceDirName": ".",
+  "slug": "/phase3-devhub",
+  "permalink": "/three-horizon-site/docs/phase3-devhub",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Phase 2: Platform Installation",
+    "permalink": "/three-horizon-site/docs/phase2-platform"
+  },
+  "next": {
+    "title": "Phase 4: GitHub Integration",
+    "permalink": "/three-horizon-site/docs/phase4-github"
+  }
+}

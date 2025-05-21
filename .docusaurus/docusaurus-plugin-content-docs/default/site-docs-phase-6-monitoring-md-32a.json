@@ -1,0 +1,26 @@
+{
+  "id": "phase6-monitoring",
+  "title": "Phase 6: Monitoring & Observability",
+  "description": "In this phase, we'll set up comprehensive monitoring and observability for the Three Horizons Platform to ensure optimal performance and quick troubleshooting.",
+  "source": "@site/docs/phase6-monitoring.md",
+  "sourceDirName": ".",
+  "slug": "/phase6-monitoring",
+  "permalink": "/three-horizon-site/docs/phase6-monitoring",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Phase 5: CI/CD Pipeline Setup",
+    "permalink": "/three-horizon-site/docs/phase5-cicd"
+  },
+  "next": {
+    "title": "Phase 7: Platform Validation",
+    "permalink": "/three-horizon-site/docs/phase7-validation"
+  }
+}

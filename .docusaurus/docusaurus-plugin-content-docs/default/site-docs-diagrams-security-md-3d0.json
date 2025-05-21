@@ -1,0 +1,27 @@
+{
+  "id": "diagrams/security",
+  "title": "Security Architecture",
+  "description": "This page will contain security architecture diagrams and explanations for the Three Horizons Platform.",
+  "source": "@site/docs/diagrams/security.md",
+  "sourceDirName": "diagrams",
+  "slug": "/diagrams/security",
+  "permalink": "/three-horizon-site/docs/diagrams/security",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Security Architecture"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Network Diagram",
+    "permalink": "/three-horizon-site/docs/diagrams/network"
+  },
+  "next": {
+    "title": "Developer Hub Architecture",
+    "permalink": "/three-horizon-site/docs/diagrams/developer-hub"
+  }
+}

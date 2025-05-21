@@ -1,0 +1,26 @@
+{
+  "id": "golden-paths",
+  "title": "Golden Paths Guide",
+  "description": "This guide introduces the concept of Golden Paths in the Three Horizons Platform—standardized, well-supported patterns that enable developers to efficiently build, deploy, and operate applications while maintaining enterprise compliance and best practices.",
+  "source": "@site/docs/golden-paths.md",
+  "sourceDirName": ".",
+  "slug": "/golden-paths",
+  "permalink": "/three-horizon-site/docs/golden-paths",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Outer Loop Deployment Guide",
+    "permalink": "/three-horizon-site/docs/outer-loop-deployment"
+  },
+  "next": {
+    "title": "Microservices Architecture Overview",
+    "permalink": "/three-horizon-site/docs/diagrams/overview"
+  }
+}

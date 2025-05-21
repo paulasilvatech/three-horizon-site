@@ -1,0 +1,26 @@
+{
+  "id": "phase4-github",
+  "title": "Phase 4: GitHub Integration",
+  "description": "In this phase, we'll connect the Three Horizons Platform with GitHub Enterprise to enable source control, collaboration, and CI/CD workflows.",
+  "source": "@site/docs/phase4-github.md",
+  "sourceDirName": ".",
+  "slug": "/phase4-github",
+  "permalink": "/three-horizon-site/docs/phase4-github",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Phase 3: Developer Hub Deployment",
+    "permalink": "/three-horizon-site/docs/phase3-devhub"
+  },
+  "next": {
+    "title": "Phase 5: CI/CD Pipeline Setup",
+    "permalink": "/three-horizon-site/docs/phase5-cicd"
+  }
+}

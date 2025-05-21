@@ -1,0 +1,27 @@
+{
+  "id": "diagrams/overview",
+  "title": "Microservices Architecture Overview",
+  "description": "The Three Horizons Platform utilizes a modern microservices architecture pattern deployed on Azure Kubernetes Service (AKS). This architecture enables scalability, resilience, and maintainability through service isolation and independent deployment.",
+  "source": "@site/docs/diagrams/overview.md",
+  "sourceDirName": "diagrams",
+  "slug": "/diagrams/overview",
+  "permalink": "/three-horizon-site/docs/diagrams/overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Microservices Architecture Overview"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Golden Paths Guide",
+    "permalink": "/three-horizon-site/docs/golden-paths"
+  },
+  "next": {
+    "title": "Network Diagram",
+    "permalink": "/three-horizon-site/docs/diagrams/network"
+  }
+}

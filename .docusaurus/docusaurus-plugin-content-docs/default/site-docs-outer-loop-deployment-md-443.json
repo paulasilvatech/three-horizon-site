@@ -1,0 +1,26 @@
+{
+  "id": "outer-loop-deployment",
+  "title": "Outer Loop Deployment Guide",
+  "description": "This guide explains the continuous integration and delivery processes in the Three Horizons Platform. The outer loop refers to the automated workflows that occur after code is pushed to a shared repository, including building, testing, and deploying applications across environments.",
+  "source": "@site/docs/outer-loop-deployment.md",
+  "sourceDirName": ".",
+  "slug": "/outer-loop-deployment",
+  "permalink": "/three-horizon-site/docs/outer-loop-deployment",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Inner Loop Development Guide",
+    "permalink": "/three-horizon-site/docs/inner-loop-development"
+  },
+  "next": {
+    "title": "Golden Paths Guide",
+    "permalink": "/three-horizon-site/docs/golden-paths"
+  }
+}

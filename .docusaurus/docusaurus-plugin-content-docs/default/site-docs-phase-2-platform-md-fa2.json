@@ -1,0 +1,26 @@
+{
+  "id": "phase2-platform",
+  "title": "Phase 2: Platform Installation",
+  "description": "Now let's install the core platform components: Azure Kubernetes Service (AKS) or Azure Red Hat OpenShift (ARO).",
+  "source": "@site/docs/phase2-platform.md",
+  "sourceDirName": ".",
+  "slug": "/phase2-platform",
+  "permalink": "/three-horizon-site/docs/phase2-platform",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Phase 1: Infrastructure Provisioning",
+    "permalink": "/three-horizon-site/docs/phase1-infrastructure"
+  },
+  "next": {
+    "title": "Phase 3: Developer Hub Deployment",
+    "permalink": "/three-horizon-site/docs/phase3-devhub"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "diagrams/cicd",
+  "title": "CI/CD Pipeline Architecture",
+  "description": "This page will contain CI/CD pipeline architecture diagrams and explanations for the Three Horizons Platform.",
+  "source": "@site/docs/diagrams/cicd.md",
+  "sourceDirName": "diagrams",
+  "slug": "/diagrams/cicd",
+  "permalink": "/three-horizon-site/docs/diagrams/cicd",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "CI/CD Pipeline Architecture"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Developer Hub Architecture",
+    "permalink": "/three-horizon-site/docs/diagrams/developer-hub"
+  },
+  "next": {
+    "title": "Integration Architecture",
+    "permalink": "/three-horizon-site/docs/diagrams/integration"
+  }
+}

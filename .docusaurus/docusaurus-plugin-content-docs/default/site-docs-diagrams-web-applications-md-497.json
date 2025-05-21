@@ -1,0 +1,22 @@
+{
+  "id": "diagrams/web-applications",
+  "title": "Web Applications",
+  "description": "This section provides architecture diagrams for different types of web applications that can be built using the Three Horizons Platform.",
+  "source": "@site/docs/diagrams/web-applications.md",
+  "sourceDirName": "diagrams",
+  "slug": "/diagrams/web-applications",
+  "permalink": "/three-horizon-site/docs/diagrams/web-applications",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Integration Architecture",
+    "permalink": "/three-horizon-site/docs/diagrams/integration"
+  }
+}

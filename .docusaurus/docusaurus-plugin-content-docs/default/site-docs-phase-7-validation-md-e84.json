@@ -1,0 +1,26 @@
+{
+  "id": "phase7-validation",
+  "title": "Phase 7: Platform Validation",
+  "description": "In this phase, we'll validate the Three Horizons Platform to ensure all components are working correctly and integrated properly.",
+  "source": "@site/docs/phase7-validation.md",
+  "sourceDirName": ".",
+  "slug": "/phase7-validation",
+  "permalink": "/three-horizon-site/docs/phase7-validation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Phase 6: Monitoring & Observability",
+    "permalink": "/three-horizon-site/docs/phase6-monitoring"
+  },
+  "next": {
+    "title": "Phase 8: Microsoft DevBox Configuration",
+    "permalink": "/three-horizon-site/docs/phase8-devbox"
+  }
+}

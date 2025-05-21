@@ -1,0 +1,26 @@
+{
+  "id": "diagrams/developer-hub",
+  "title": "Developer Hub Architecture",
+  "description": "This diagram illustrates the architecture of the Red Hat Developer Hub, a central component of the Three Horizons Platform that provides a unified developer experience.",
+  "source": "@site/docs/diagrams/developer-hub.md",
+  "sourceDirName": "diagrams",
+  "slug": "/diagrams/developer-hub",
+  "permalink": "/three-horizon-site/docs/diagrams/developer-hub",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Security Architecture",
+    "permalink": "/three-horizon-site/docs/diagrams/security"
+  },
+  "next": {
+    "title": "CI/CD Pipeline Architecture",
+    "permalink": "/three-horizon-site/docs/diagrams/cicd"
+  }
+}

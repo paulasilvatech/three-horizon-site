@@ -1,0 +1,26 @@
+{
+  "id": "inner-loop-development",
+  "title": "Inner Loop Development Guide",
+  "description": "This guide provides developers with best practices for efficient local development workflows using the Three Horizons Platform. The inner loop refers to the development process that happens on a developer's local machine, centered around writing, running, and debugging code.",
+  "source": "@site/docs/inner-loop-development.md",
+  "sourceDirName": ".",
+  "slug": "/inner-loop-development",
+  "permalink": "/three-horizon-site/docs/inner-loop-development",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Architecture Overview",
+    "permalink": "/three-horizon-site/docs/architecture"
+  },
+  "next": {
+    "title": "Outer Loop Deployment Guide",
+    "permalink": "/three-horizon-site/docs/outer-loop-deployment"
+  }
+}

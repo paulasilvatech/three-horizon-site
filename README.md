@@ -1,113 +1,58 @@
-# Three Horizons Platform - GitHub Pages Deployment Guide
+# Three Horizons Site
 
-This repository contains the complete Three Horizons Platform documentation site built with Docusaurus. Follow these instructions to deploy the site to GitHub Pages.
+This is the repository for the Three Horizons Platform site, built using [Docusaurus 3](https://docusaurus.io/).
 
-## Quick Start for GitHub Pages Deployment
+## Local Development
 
-1. Create a new GitHub repository for your site
-2. Clone the repository to your local machine
-3. Extract the contents of this ZIP file to your local repository
-4. Push the contents to your GitHub repository
-5. Configure GitHub Pages in your repository settings
-
-## Detailed Deployment Steps
-
-### 1. Create a GitHub Repository
-
-1. Go to [GitHub](https://github.com) and sign in to your account
-2. Click the "+" icon in the top right corner and select "New repository"
-3. Name your repository (e.g., `three-horizons-platform`)
-4. Make the repository public or private as needed
-5. Click "Create repository"
-
-### 2. Clone the Repository
+To run the site locally:
 
 ```bash
-git clone https://github.com/yourusername/three-horizons-platform.git
-cd three-horizons-platform
-```
-
-### 3. Extract and Add Files
-
-1. Extract the contents of this ZIP file to your local repository folder
-2. For GitHub Pages deployment, you'll need to use the pre-built static files:
-
-```bash
-# Option 1: Use the pre-built files
-# Copy the contents of the 'build' directory to the root of your repository
-cp -r build/* .
-
-# Option 2: If you want to rebuild the site yourself
+# Install dependencies
 npm install
-npm run build
-cp -r build/* .
+
+# Start the development server
+npm start
 ```
 
-### 4. Configure for GitHub Pages
+The site will be available at http://localhost:3000/three-horizon-site/
 
-Create a `.github/workflows/deploy.yml` file with the following content:
+## Build
 
-```yaml
-name: Deploy to GitHub Pages
-
-on:
-  push:
-    branches: [main]
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
-jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: './build'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
-```
-
-### 5. Push to GitHub
+To build the site for production:
 
 ```bash
-git add .
-git commit -m "Initial commit with Three Horizons Platform documentation"
-git push -u origin main
+npm run build
 ```
 
-### 6. Enable GitHub Pages
+The build output will be generated in the `build/` folder.
 
-1. Go to your repository on GitHub
-2. Click "Settings" > "Pages"
-3. Under "Source", select "GitHub Actions"
-4. Wait for the GitHub Actions workflow to complete
-5. Your site will be available at `https://yourusername.github.io/three-horizons-platform/`
+## Deployment
 
-## Customization
+The site is automatically deployed to GitHub Pages when a push happens to the `main` branch. This is done through GitHub Actions configured in the `.github/workflows/deploy.yml` file.
 
-If you want to customize the site further:
+To deploy manually:
 
-1. Make changes to the source files in the `src`, `docs`, or `static` directories
-2. Rebuild the site with `npm run build`
-3. Test locally with `npm run serve`
-4. Commit and push your changes
+1. Make sure the settings in `docusaurus.config.js` are correct
+2. Manually run the GitHub Actions workflow through the GitHub interface
+
+### GitHub Pages Configuration
+
+For the deployment to work correctly, make sure that:
+
+1. In the GitHub repository, go to Settings > Pages
+2. Under "Source", select "GitHub Actions"
+3. Verify that the repository has the necessary permissions for GitHub Actions
+
+## Custom Configuration
+
+The site is configured in the `docusaurus.config.js` file. The main settings include:
+
+- `url`: 'https://three-horizons.github.io'
+- `baseUrl`: '/three-horizon-site/'
+- `organizationName`: 'three-horizons'
+- `projectName`: 'three-horizon-site'
+
+To modify the sidebar structure, edit the `sidebars.js` file.
 
 ## Troubleshooting
 

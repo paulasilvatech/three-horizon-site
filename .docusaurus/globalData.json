@@ -1,0 +1,133 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/three-horizon-site/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/three-horizon-site/docs",
+          "mainDocId": "platform-vision",
+          "docs": [
+            {
+              "id": "architecture",
+              "path": "/three-horizon-site/docs/architecture",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "diagrams/cicd",
+              "path": "/three-horizon-site/docs/diagrams/cicd",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "diagrams/developer-hub",
+              "path": "/three-horizon-site/docs/diagrams/developer-hub",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "diagrams/integration",
+              "path": "/three-horizon-site/docs/diagrams/integration",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "diagrams/network",
+              "path": "/three-horizon-site/docs/diagrams/network",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "diagrams/overview",
+              "path": "/three-horizon-site/docs/diagrams/overview",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "diagrams/security",
+              "path": "/three-horizon-site/docs/diagrams/security",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "diagrams/web-applications",
+              "path": "/three-horizon-site/docs/diagrams/web-applications",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "golden-paths",
+              "path": "/three-horizon-site/docs/golden-paths",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "inner-loop-development",
+              "path": "/three-horizon-site/docs/inner-loop-development",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/three-horizon-site/docs/intro",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "outer-loop-deployment",
+              "path": "/three-horizon-site/docs/outer-loop-deployment",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "phase1-infrastructure",
+              "path": "/three-horizon-site/docs/phase1-infrastructure",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "phase2-platform",
+              "path": "/three-horizon-site/docs/phase2-platform",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "phase3-devhub",
+              "path": "/three-horizon-site/docs/phase3-devhub",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "phase4-github",
+              "path": "/three-horizon-site/docs/phase4-github",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "phase5-cicd",
+              "path": "/three-horizon-site/docs/phase5-cicd",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "phase6-monitoring",
+              "path": "/three-horizon-site/docs/phase6-monitoring",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "phase7-validation",
+              "path": "/three-horizon-site/docs/phase7-validation",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "phase8-devbox",
+              "path": "/three-horizon-site/docs/phase8-devbox",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "platform-vision",
+              "path": "/three-horizon-site/docs/platform-vision",
+              "sidebar": "docsSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docsSidebar": {
+              "link": {
+                "path": "/three-horizon-site/docs/platform-vision",
+                "label": "Platform Vision & Differentiators"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

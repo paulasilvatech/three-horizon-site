@@ -1,0 +1,26 @@
+{
+  "id": "intro",
+  "title": "Introduction",
+  "description": "Welcome to the definitive tutorial for implementing a complete Three Horizons Platform. This guide will walk you through each step of the integration process, from infrastructure provisioning to full platform operation.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/three-horizon-site/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Platform Vision & Differentiators",
+    "permalink": "/three-horizon-site/docs/platform-vision"
+  },
+  "next": {
+    "title": "Phase 1: Infrastructure Provisioning",
+    "permalink": "/three-horizon-site/docs/phase1-infrastructure"
+  }
+}
