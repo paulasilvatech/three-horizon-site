@@ -1,7 +1,7 @@
 {
   "id": "diagrams/cicd",
   "title": "CI/CD Pipeline Architecture",
-  "description": "This page will contain CI/CD pipeline architecture diagrams and explanations for the Three Horizons Platform.",
+  "description": "The Three Horizons Platform implements a robust CI/CD pipeline architecture to automate the software delivery process, ensuring reliable, consistent, and efficient deployment of applications.",
   "source": "@site/docs/diagrams/cicd.md",
   "sourceDirName": "diagrams",
   "slug": "/diagrams/cicd",

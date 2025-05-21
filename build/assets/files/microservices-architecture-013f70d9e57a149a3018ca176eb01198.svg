@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="700" viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background and border -->
+  <rect x="50" y="50" width="800" height="500" fill="white" stroke="#4B8BF5" stroke-width="2" rx="10" ry="10" opacity="0.1"/>
+  <text x="450" y="85" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#333">Microservices Architecture Pattern</text>
+  <text x="450" y="115" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#4B8BF5">Azure Kubernetes Service (AKS)</text>
+
+  <!-- Client Box -->
+  <rect x="400" y="140" width="100" height="40" fill="white" stroke="#666" stroke-width="2" rx="8" ry="8"/>
+  <text x="450" y="165" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Clients</text>
+
+  <!-- Arrow down to API Gateway -->
+  <line x1="450" y1="180" x2="450" y2="210" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- API Gateway -->
+  <rect x="300" y="210" width="300" height="70" fill="white" stroke="#8E44AD" stroke-width="2" rx="8" ry="8"/>
+  <text x="450" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#8E44AD">API Gateway</text>
+  <text x="450" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#8E44AD">Azure API Management / NGINX / Envoy</text>
+
+  <!-- Frontend Service -->
+  <rect x="100" y="330" width="150" height="80" fill="white" stroke="#3498DB" stroke-width="2" rx="8" ry="8"/>
+  <text x="175" y="360" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#3498DB">Frontend Service</text>
+  <text x="175" y="380" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#3498DB">React SPA</text>
+  <text x="175" y="395" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#3498DB">Container</text>
+
+  <!-- Users Service -->
+  <rect x="300" y="330" width="150" height="80" fill="white" stroke="#2ECC71" stroke-width="2" rx="8" ry="8"/>
+  <text x="375" y="360" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2ECC71">Users</text>
+  <text x="375" y="380" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2ECC71">Authentication</text>
+  <text x="375" y="395" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2ECC71">Authorization</text>
+
+  <!-- Products Service -->
+  <rect x="500" y="330" width="150" height="80" fill="white" stroke="#2ECC71" stroke-width="2" rx="8" ry="8"/>
+  <text x="575" y="360" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2ECC71">Products</text>
+  <text x="575" y="380" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2ECC71">Catalog</text>
+  <text x="575" y="395" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2ECC71">Inventory</text>
+
+  <!-- Orders Service -->
+  <rect x="700" y="330" width="150" height="80" fill="white" stroke="#2ECC71" stroke-width="2" rx="8" ry="8"/>
+  <text x="775" y="360" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2ECC71">Orders</text>
+  <text x="775" y="380" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2ECC71">Processing</text>
+  <text x="775" y="395" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2ECC71">Fulfillment</text>
+
+  <!-- Arrows from API Gateway to Services -->
+  <line x1="350" y1="280" x2="175" y2="330" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="435" y1="280" x2="375" y2="330" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="465" y1="280" x2="575" y2="330" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="550" y1="280" x2="775" y2="330" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Event Bus / Message Broker -->
+  <rect x="100" y="450" width="750" height="50" fill="white" stroke="#E74C3C" stroke-width="2" rx="8" ry="8"/>
+  <text x="475" y="480" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#E74C3C">Event Bus / Message Broker (Azure Service Bus / Event Hubs)</text>
+
+  <!-- Arrows from Services to Event Bus -->
+  <line x1="175" y1="410" x2="175" y2="450" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="375" y1="410" x2="375" y2="450" stroke="#666" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+  <line x1="575" y1="410" x2="575" y2="450" stroke="#666" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+  <line x1="775" y1="410" x2="775" y2="450" stroke="#666" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+
+  <!-- Databases -->
+  <rect x="135" y="540" width="100" height="50" fill="white" stroke="#F39C12" stroke-width="2" rx="8" ry="8"/>
+  <text x="185" y="570" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#F39C12">Users DB</text>
+
+  <rect x="335" y="540" width="100" height="50" fill="white" stroke="#F39C12" stroke-width="2" rx="8" ry="8"/>
+  <text x="385" y="570" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#F39C12">Products DB</text>
+
+  <rect x="535" y="540" width="100" height="50" fill="white" stroke="#F39C12" stroke-width="2" rx="8" ry="8"/>
+  <text x="585" y="570" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#F39C12">Orders DB</text>
+
+  <rect x="735" y="540" width="100" height="50" fill="white" stroke="#F39C12" stroke-width="2" rx="8" ry="8"/>
+  <text x="785" y="570" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#F39C12">Analytics DB</text>
+
+  <!-- Arrows from Event Bus to Databases -->
+  <line x1="185" y1="500" x2="185" y2="540" stroke="#666" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+  <line x1="385" y1="500" x2="385" y2="540" stroke="#666" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+  <line x1="585" y1="500" x2="585" y2="540" stroke="#666" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+  <line x1="785" y1="500" x2="785" y2="540" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Legend -->
+  <rect x="150" y="630" width="20" height="20" fill="white" stroke="#3498DB" stroke-width="2" rx="3" ry="3"/>
+  <text x="180" y="645" font-family="Arial, sans-serif" font-size="14" fill="#333">Frontend</text>
+
+  <rect x="250" y="630" width="20" height="20" fill="white" stroke="#2ECC71" stroke-width="2" rx="3" ry="3"/>
+  <text x="280" y="645" font-family="Arial, sans-serif" font-size="14" fill="#333">Microservice</text>
+
+  <rect x="400" y="630" width="20" height="20" fill="white" stroke="#8E44AD" stroke-width="2" rx="3" ry="3"/>
+  <text x="430" y="645" font-family="Arial, sans-serif" font-size="14" fill="#333">API Gateway</text>
+
+  <rect x="550" y="630" width="20" height="20" fill="white" stroke="#F39C12" stroke-width="2" rx="3" ry="3"/>
+  <text x="580" y="645" font-family="Arial, sans-serif" font-size="14" fill="#333">Database</text>
+
+  <line x1="650" y1="640" x2="680" y2="640" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="710" y="645" font-family="Arial, sans-serif" font-size="14" fill="#333">Event Flow</text>
+
+  <!-- Arrow for legend -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+</svg> 

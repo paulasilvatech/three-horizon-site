@@ -1,7 +1,7 @@
 {
   "id": "diagrams/security",
   "title": "Security Architecture",
-  "description": "This page will contain security architecture diagrams and explanations for the Three Horizons Platform.",
+  "description": "The Three Horizons Platform implements a comprehensive security architecture that addresses authentication, authorization, network security, and data protection.",
   "source": "@site/docs/diagrams/security.md",
   "sourceDirName": "diagrams",
   "slug": "/diagrams/security",

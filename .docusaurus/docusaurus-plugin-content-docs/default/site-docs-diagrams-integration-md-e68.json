@@ -1,7 +1,7 @@
 {
   "id": "diagrams/integration",
   "title": "Integration Architecture",
-  "description": "This page will contain integration architecture diagrams and explanations for the Three Horizons Platform.",
+  "description": "The Three Horizons Platform provides comprehensive integration capabilities to connect with external systems, services, and data sources. This integration architecture ensures seamless data flow and system interoperability across the enterprise.",
   "source": "@site/docs/diagrams/integration.md",
   "sourceDirName": "diagrams",
   "slug": "/diagrams/integration",
