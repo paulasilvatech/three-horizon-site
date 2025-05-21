@@ -1,0 +1,32 @@
+/**
+ * Custom CSS to override Docusaurus defaults and remove Manus branding
+ */
+
+/* Hide the "Made with Manus" badge */
+.footer__manus-badge {
+  display: none !important;
+}
+
+/* Alternative approach to hide any badge in the footer */
+.footer__bottom {
+  position: relative;
+}
+
+.footer__bottom::after {
+  content: none !important;
+}
+
+/* Hide any potential Manus branding elements */
+[data-brand="manus"],
+[class*="manus-badge"],
+[class*="manus-branding"],
+img[alt*="Manus"],
+img[src*="manus"] {
+  display: none !important;
+}
+
+/* Ensure the footer copyright text is properly displayed */
+.footer__copyright {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}

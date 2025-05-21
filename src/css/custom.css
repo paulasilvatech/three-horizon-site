@@ -1,0 +1,179 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #0366d6;
+  --ifm-color-primary-dark: #0258b8;
+  --ifm-color-primary-darker: #0249a5;
+  --ifm-color-primary-darkest: #013d8a;
+  --ifm-color-primary-light: #0474f4;
+  --ifm-color-primary-lighter: #0e7fff;
+  --ifm-color-primary-lightest: #3e97ff;
+  
+  /* Secondary brand colors */
+  --azure-blue: #0078D4;
+  --redhat-red: #EE0000;
+  --github-dark: #24292E;
+  
+  /* Horizon colors */
+  --horizon1-color: #2188ff;
+  --horizon2-color: #f9c513;
+  --horizon3-color: #6f42c1;
+  
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #4e89e8;
+  --ifm-color-primary-dark: #3375e4;
+  --ifm-color-primary-darker: #256be2;
+  --ifm-color-primary-darkest: #1755c1;
+  --ifm-color-primary-light: #699dec;
+  --ifm-color-primary-lighter: #77a7ee;
+  --ifm-color-primary-lightest: #9fc1f3;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Admonition styles */
+.admonition {
+  margin-bottom: 1em;
+  padding: 15px 30px 15px 15px;
+  border-radius: 5px;
+}
+
+.admonition h5 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.admonition-note {
+  background-color: rgba(0, 0, 255, 0.1);
+  border-left: 8px solid #4169E1;
+}
+
+.admonition-tip {
+  background-color: rgba(0, 128, 0, 0.1);
+  border-left: 8px solid #2e8555;
+}
+
+.admonition-warning {
+  background-color: rgba(255, 165, 0, 0.1);
+  border-left: 8px solid #f0ad4e;
+}
+
+.admonition-info {
+  background-color: rgba(0, 191, 255, 0.1);
+  border-left: 8px solid #17a2b8;
+}
+
+/* Accessibility improvements */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Skip to content link for keyboard users */
+.skip-to-content {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--ifm-color-primary);
+  color: white;
+  padding: 8px;
+  z-index: 100;
+  transition: top 0.2s;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
+
+/* Focus styles for accessibility */
+:focus {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+/* Responsive improvements */
+@media (max-width: 996px) {
+  .hero__title {
+    font-size: 2.5rem;
+  }
+  
+  .hero__subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 0;
+  }
+  
+  .hero__title {
+    font-size: 2rem;
+  }
+  
+  .hero__subtitle {
+    font-size: 1rem;
+  }
+}
+
+/* Code block improvements */
+.theme-code-block {
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* High contrast mode support */
+@media (forced-colors: active) {
+  .button {
+    border: 2px solid currentColor;
+  }
+  
+  .card {
+    border: 2px solid currentColor;
+  }
+}
+
+.diagram-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+html[data-theme='dark'] .diagram-container {
+  background-color: white;
+  color: #000;
+  border: 1px solid #444;
+}
+
+.portal-screenshot {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+html[data-theme='dark'] .portal-screenshot {
+  border: 1px solid #444;
+}

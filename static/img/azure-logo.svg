@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <rect width="150" height="150" rx="10" fill="#0078D4"/>
+  <path d="M34 47.5L68 36.2V77.5L34 88.8V47.5Z" fill="#FFFFFF"/>
+  <path d="M72.5 35L116 47.5V88.8L72.5 76.2V35Z" fill="#FFFFFF" fill-opacity="0.8"/>
+  <path d="M34 93.8L68 105V113.8L34 102.5V93.8Z" fill="#FFFFFF"/>
+  <path d="M72.5 105L116 93.8V102.5L72.5 113.8V105Z" fill="#FFFFFF" fill-opacity="0.8"/>
+</svg>
