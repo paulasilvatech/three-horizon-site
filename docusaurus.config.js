@@ -10,12 +10,12 @@ const config = {
   url: 'https://three-horizon-platform.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Three-Horizons-Playbook/',
+  baseUrl: '/three-horizon-site/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'three-horizon-platform', // Usually your GitHub org/user name.
-  projectName: 'Three-Horizons-Playbook', // Usually your repo name.
+  organizationName: 'paulasilvatech', // Usually your GitHub org/user name.
+  projectName: 'three-horizon-site', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
